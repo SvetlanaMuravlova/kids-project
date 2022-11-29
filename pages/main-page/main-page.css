@@ -16,8 +16,13 @@ section .description {
 }
 
 section.main-page .bg-image-absolute {
+    position: absolute;
     top: 0;
-    right: 0;
+    right: -20%;
+}
+
+section.main-page .bg-image-absolute img{
+    border-radius: 20px;
 }
 
 .box-item {
