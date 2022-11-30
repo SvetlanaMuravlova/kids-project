@@ -263,6 +263,10 @@ footer {
     z-index: -1;
 }
 
+.lg-hide-bg-image, .bg-bottom-center-adaptive {
+    display: none;
+}
+
 
 
 
