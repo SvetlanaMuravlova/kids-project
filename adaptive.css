@@ -227,6 +227,26 @@
         display: none;
     }
 
+    .carousel {
+        display: none;
+    }
+
+    .carousel.adaptive {
+        display: block;
+    }
+
+    .adaptive-display-none {
+        display: none;
+    }
+
+    .height-auto-adaptive {
+        height: auto;!important;
+    }
+
+    .section.quizz-box .content-box .option {
+        max-width: 30%;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -317,6 +337,10 @@
     .get-in-touch button {
         margin: 0 auto;
         display: block;
+    }
+
+    .section.quizz-box .content-box .option img {
+        max-width: 100%;
     }
 
 }
