@@ -44,6 +44,13 @@ body {
     font-weight: 400;
 }
 
+.font-white-700 {
+    color: white;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
 .font-grey-300 {
     color: var(--grey-color);
     font-size: 16px;
@@ -113,6 +120,14 @@ body {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
+}
+
+.font-light-accent-700 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    opacity: .5;
 }
 
 .font-accent-18-700 {
@@ -267,9 +282,107 @@ footer {
     display: none;
 }
 
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.p-y-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.p-x-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.d-block {
+    display: block;
+}
+
+.dark-accent {
+    background-color: var(--acent-color-green);
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
 
 
 
+.time-section {
+    justify-content: space-between;
+}
+
+.time-section p, .time-section span {
+    display: block;
+    margin: 0;
+}
+
+.time-section .dots {
+    margin: 0 30px;
+}
+
+.doctor-block h2 {
+    margin-bottom: 30px;
+}
+
+.doctor-block img {
+    max-width: 345px;
+}
+
+.doctor-block .content-box {
+    margin-left: 60px;
+}
+
+.doctor-block button {
+    margin-top: 35px;
+}
+
+.doctor-block .container-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-box .accordion-button:not(.collapsed) {
+    color: var(--grey-color);
+    background-color: white;
+    border-color: transparent;
+    box-shadow: transparent;
+}
+
+.accordion-box .accordion-button {
+    outline: none;
+    border-color: var(--grey-color);
+    box-shadow: var(--grey-color);
+}
+
+.accordion-box .accordion-item {
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.accordion-box .accordion-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.accordion-box .title-box {
+    margin-bottom: 30px;
+}
 
 
 

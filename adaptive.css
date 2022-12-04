@@ -235,6 +235,19 @@
         display: block;
     }
 
+    .carousel-indicators {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section.clients .dot:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .carousel-navigation {
+        justify-content: center;
+    }
+
     .adaptive-display-none {
         display: none;
     }
