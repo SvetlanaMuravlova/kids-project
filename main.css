@@ -108,6 +108,20 @@ body {
     font-weight: 500;
 }
 
+.font-accent-color-400 {
+    color: var(--acent-color-green);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.font-grey-16-500 {
+    color: var(--grey-color);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
 .font-accent-600 {
     color: var(--acent-color-green);
     font-size: 16px;
@@ -119,6 +133,13 @@ body {
     color: var(--acent-color-green);
     font-size: 16px;
     line-height: 20px;
+    font-weight: 700;
+}
+
+.font-accent-40-700 {
+    color: var(--acent-color-green);
+    font-size: 40px;
+    line-height: 49px;
     font-weight: 700;
 }
 
@@ -222,7 +243,7 @@ footer {
     margin-top: 70px;
 }
 
-.section.last-section {
+.section.last-section, .last-section {
     margin-bottom: 110px;
 }
 
@@ -325,6 +346,7 @@ footer {
 
 .time-section {
     justify-content: space-between;
+    align-items: center;
 }
 
 .time-section p, .time-section span {
@@ -384,5 +406,158 @@ footer {
     margin-bottom: 30px;
 }
 
+.plan-selection {
+    margin-top: 50px;
+}
 
+.plan-selection .title-box {
+    margin-bottom: 25px;
+}
+
+.plan-selection .title-box.main {
+    margin-bottom: 60px;
+}
+
+.plan-selection .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-selection .content-wrapper .plans, .plan-selection .content-wrapper .plan_includes {
+    flex-shrink: 1;
+}
+
+.plan-selection .content-wrapper .plans {
+    margin-right: 40px;
+}
+
+.plan-selection .plan {
+    display: block;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+}
+
+.plan-selection .plan.active {
+    border: 2px solid #FF725E;
+}
+
+.plan-selection .plan.active:before {
+    content:'SPECIAL OFFER - SAVE 33%';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    background-color: #FF725E;
+    width: 240px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plan-selection .plan:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.plan-selection .plan:last-child {
+    margin-bottom: 20px;
+}
+
+.plan-selection .plan .row-inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-selection p {
+    display: block;
+    width: fit-content;
+}
+
+.canceled-text {
+    text-decoration: line-through;
+}
+
+.plan-selection .sales-box>p {
+    margin-right: 30px;
+}
+
+.plan-selection .plan .row-inf:not(:last-child) {
+    margin-bottom: 17px;
+}
+
+/*.checkbox-box {*/
+/*    display: flex;*/
+/*}*/
+
+.checkbox-box label{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-box label a {
+    margin-left: 5px;
+}
+
+.checkbox-box .styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox-box label {
+     position: relative;
+     cursor: pointer;
+     padding: 0;
+}
+
+.checkbox-box .custom-checkbox {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border: 1px solid var(--acent-color-green);
+    border-radius: 2px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.checkbox-box input:checked + label .custom-checkbox {
+    content: '';
+    background: url('./assets/icons/check.png');
+    left: 0;
+    top: 0;
+    width: 24px;
+    background-repeat: no-repeat;
+    height: 24px;
+    background-position-x: center;
+    background-position-y: 6px;
+}
+
+.plans-box button{
+    margin-top: 20px;
+}
+
+ .plans-include-wrapper .checkbox-box:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+ section.summary p {
+     margin: 0;
+ }
+
+ .plan.adaptive {
+     display: none;
+ }
 

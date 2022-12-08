@@ -260,6 +260,88 @@
         max-width: 30%;
     }
 
+    .time-section {
+        flex-direction: column;
+        max-width: 90%;
+        margin: 20px auto 0 auto;
+    }
+
+    .time-section p {
+        margin-bottom: 12px;
+    }
+
+    .plans-box button.w-100 {
+        margin-top: 20px;
+        width: auto!important;
+    }
+
+    .plan-selection {
+        margin-top: 40px;
+    }
+
+    .plan-selection .title-box.main {
+        margin-bottom: 30px;
+    }
+
+    .font-white-700 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .font-light-accent-700 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .plan-selection .plans .title-box {
+        display: none;
+    }
+
+    .plan-selection .plan:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .plan-selection .plan.active:before {
+        width: 176px;
+        height: 24px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .plan-selection .plan .row-inf:not(:last-child), .plan-selection .plan .row-inf:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .doctor-block {
+        margin-top: 30px!important;
+    }
+
+    .doctor-block h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .doctor-block .container-wrapper {
+        flex-direction: column;
+    }
+
+    .doctor-block .content-box {
+        margin-left: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .doctor-block button {
+        margin-top: 20px;
+    }
+
+    .section.last-section, .last-section {
+        margin-bottom: 60px;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -356,6 +438,15 @@
         max-width: 100%;
     }
 
+    .plan-selection .content-wrapper {
+        flex-direction: column;
+    }
+
+    .plan-selection .content-wrapper .plans {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
 }
 @media (max-width: 1400px) {
 }
@@ -397,5 +488,13 @@
 
     .btn.exit-btn {
         display: none;
+    }
+
+    .plan-selection .plan {
+        padding: 17px;
+    }
+
+    .plan {
+        display: none!important;
     }
 }
