@@ -88,6 +88,11 @@
         font-size: 14px;
         line-height: 17px;
     }
+
+    .font-accent-40-700 {
+        font-size: 22px;
+        line-height: 27px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -492,9 +497,5 @@
 
     .plan-selection .plan {
         padding: 17px;
-    }
-
-    .plan {
-        display: none!important;
     }
 }
