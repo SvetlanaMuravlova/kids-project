@@ -139,7 +139,7 @@ body {
 .font-accent-40-700 {
     color: var(--acent-color-green);
     font-size: 40px;
-    line-height: 49px;
+    line-height: 50px;
     font-weight: 700;
 }
 
@@ -556,4 +556,77 @@ footer {
  section.summary p {
      margin: 0;
  }
+
+ .summary-conclusion {
+     margin-top: 55px;
+ }
+
+ .summary-conclusion .content-box {
+     max-width: 500px;
+ }
+
+ .summary-conclusion .content-box .title p:last-child {
+     margin: 30px 0;
+     display: block;
+     max-width: 320px;
+ }
+
+ .summary-conclusion .notice-box {
+     padding: 20px 30px;
+     border: 1px solid var(--acent-color-green);
+     background-color: rgba(0,189,144, .1);
+     border-radius: 10px;
+     margin-bottom: 30px;
+ }
+
+.summary-conclusion .notice-box img {
+    max-width: 43px;
+    max-height: 48px;
+    margin-right: 30px;
+}
+
+.summary-conclusion .notice-box p {
+    margin: 0;
+}
+
+.summary-conclusion .notice-box p:first-child {
+    margin-bottom: 10px;
+}
+
+.summary-conclusion .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-conclusion .container .diagram-box {
+    max-width: 600px;
+}
+
+.summary-conclusion .diagram-box .data {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px 30px;
+}
+
+.summary-conclusion .diagram-box .data img {
+    width: 47px;
+    height: 47px;
+    margin-right: 23px;
+}
+
+.summary-conclusion .diagram-box .data .content {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.summary-conclusion .diagram-box .data p {
+    margin-bottom: 0;
+}
+
+.summary-conclusion .diagram-box .data .content p:first-child {
+    margin-bottom: 15px;
+}
 
