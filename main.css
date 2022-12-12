@@ -143,6 +143,13 @@ body {
     font-weight: 700;
 }
 
+.font-accent-30-700 {
+    color: var(--acent-color-green);
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 700;
+}
+
 .font-light-accent-700 {
     color: #fff;
     font-size: 18px;
@@ -628,5 +635,110 @@ footer {
 
 .summary-conclusion .diagram-box .data .content p:first-child {
     margin-bottom: 15px;
+}
+
+.summary-days {
+    margin-top: 100px;
+}
+
+.summary-days .days-box-container .header {
+    padding: 33px;
+    border-radius: 10px;
+    background-color: rgba(0,189,144, .1);
+}
+
+.summary-days .days-box-container .description {
+    padding: 37px 53px;
+}
+
+.summary-days .days-box-container .description p:first-child {
+    margin-bottom: 20px;
+}
+
+.summary-days .days-box-container, .summary-days .benefits-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.summary-days .day {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 30%;
+}
+
+.summary-days .benefits-box .benefit {
+    padding: 45px 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 24%;
+}
+
+.summary-days .benefits-box {
+    margin-bottom: 100px;
+}
+
+.active-users {
+    margin-top: 100px;
+}
+
+.active-users .users-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.active-users .user {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 23%;
+}
+
+.active-users .img-box {
+    width: 230px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.active-users .img-box img {
+    width: 100%;
+}
+
+.active-users .star-box img:not(:last-child){
+    margin-right: 10px;
+}
+
+.active-users .star-box {
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.active-users button {
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+}
+
+.doctor-block.xl img {
+    max-width: 100%;
+    min-width: 660px;
+}
+
+.summary-conclusion.adaptive {
+    display: none;
+}
+
+.active-users .carousel.adaptive {
+    display: none;
+}
+
+header.summary img.adaptive {
+    display: none;
 }
 

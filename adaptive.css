@@ -93,9 +93,47 @@
         font-size: 22px;
         line-height: 27px;
     }
+
+    .active-users .carousel.adaptive .clients-item .user {
+        width: 60%;
+    }
+
+    header.summary img {
+        display: none;
+    }
+
+    header.summary img.adaptive {
+        display: block;
+    }
 }
 
 @media (max-width: 992px) {
+
+    .active-users .users-block {
+        display: none;
+    }
+
+    .active-users .carousel.adaptive {
+        display: block;
+    }
+
+    .active-users .carousel.adaptive .clients-item {
+        padding: 10px;
+    }
+
+    .active-users .carousel.adaptive .clients-item .user {
+        margin: 0 auto;
+    }
+
+    .active-users .carousel.adaptive .img-box {
+        width: 100%;
+    }
+
+    .doctor-block.xl img {
+        min-width: 100%;
+    }
+
+
     .quizz-navigation-adaptive {
         display: flex;
         margin-top: 20px;
@@ -240,12 +278,20 @@
         display: block;
     }
 
+    .active-users .carousel.adaptive .carousel-indicators {
+        bottom: -30px;
+    }
+
+    .active-users {
+        margin-bottom: 80px;
+    }
+
     .carousel-indicators {
         margin-left: 0;
         margin-right: 0;
     }
 
-    .section.clients .dot:not(:last-child) {
+    .section.clients .dot:not(:last-child), .active-users .dot:not(:last-child) {
         margin-right: 20px;
     }
 
@@ -346,7 +392,6 @@
     .section.last-section, .last-section {
         margin-bottom: 60px;
     }
-
 }
 
 @media (max-width: 1200px) {
@@ -415,6 +460,7 @@
 
     section .title-box {
         text-align: center;
+        margin-bottom: 30px;
     }
 
     .clients .title-box h2, .clients .title-box h2 {
@@ -451,6 +497,66 @@
         margin-right: 0;
         margin-bottom: 40px;
     }
+
+    .summary-conclusion {
+        display: none;
+    }
+
+    .summary-conclusion.adaptive {
+        display: flex;
+    }
+
+    .summary-conclusion.adaptive .container {
+        flex-direction: column;
+    }
+
+    .summary-conclusion.adaptive .content-box, .summary-conclusion .container .diagram-box {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .summary-conclusion.adaptive .title {
+        text-align: center;
+    }
+
+    .summary-conclusion.adaptive .content-box .title p:last-child {
+        max-width: 100%;
+    }
+
+    .summary-conclusion.adaptive .notice-box, .summary-conclusion .diagram-box .data {
+        width: 60% !important;
+        margin: 0 auto 20px;
+    }
+
+    .summary-conclusion.adaptive .content-box button {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .summary-conclusion.adaptive .diagram {
+        width: 100%!important;
+    }
+
+    .summary-days .days-box-container, .summary-days .benefits-box {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .summary-days .days-box-container .day, .summary-days .benefits-box .benefit {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .active-users .user {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .active-users .users-block {
+        flex-wrap: wrap;
+    }
+
 
 }
 @media (max-width: 1400px) {
@@ -498,4 +604,28 @@
     .plan-selection .plan {
         padding: 17px;
     }
-}
+
+    .active-users .carousel.adaptive .clients-item .user, .summary-conclusion.adaptive .notice-box, .summary-conclusion .diagram-box .data {
+        width: 100% !important;
+    }
+
+    .font-accent-30-700 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .header.summary {
+        padding: 22px 8px;
+    }
+
+    .header.summary img {
+        width: 130px;
+    }
+
+
+    .header.summary button {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    }
