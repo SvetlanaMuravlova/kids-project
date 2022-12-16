@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--fonts ends -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container ">
+        <img class="img-center" src="../../assets/logo/logo-green-xl.png" alt="">
+    </div>
+</header>
+
+<section class="accent-section p-y-25 summary">
+    <div class="container justify-content-between d-flex">
+        <p class="font-accent-700 d-block">Your baby summary</p>
+        <p class="font-grey-16-700 d-block">Boy, 6 months ols, 123 lbs </p>
+    </div>
+</section>
+<section class="mt-40">
+    <div class="container dark-accent border-radius-10 p-y-25 p-x-30 font-white-700 d-flex time-section">
+        <p>The offer expires in:</p>
+        <div class="d-flex">
+            <div class="text-center">
+                <span>00</span>
+                <span class="font-light-accent-700">hours</span>
+            </div>
+            <p class="dots">:</p>
+            <div class="text-center">
+                <span>14</span>
+                <span class="font-light-accent-700">Minutes</span>
+            </div>
+            <p class="dots">:</p>
+            <div class="text-center">
+                <span>37</span>
+                <span class="font-light-accent-700">Secunds</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="stepper">
+    <div class="container">
+        <div class="stepper-box">
+            <div class="point-item-box">
+                <div class="point-item">
+                    <p class="font-white-26-700">1</p>
+                </div>
+                <p class="font-accent-18-700 name">Selected Plan</p>
+            </div>
+            <div class="line"></div>
+            <div class="point-item-box">
+                <div class="point-item">
+                    <p class="font-white-26-700">2</p>
+                </div>
+                <p class="font-accent-18-700 name">Payment</p>
+            </div>
+            <div class="line disabled"></div>
+            <div class="point-item-box disabled">
+                <div class="point-item">
+                    <p class="font-white-26-700">3</p>
+                </div>
+                <p class="font-accent-18-700 name">Summary</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="last-section payment-section">
+    <div class="container">
+        <h2 class="font-grey-32-700">Select a secure payment method</h2>
+        <div class="content-box">
+            <div class="payment-box">
+                <div class="accordion" id="accordionPayment">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <div class="accordion-button collapsed checkbox-box font-grey-16-700 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <input name="paypal" id="paypal" class="styled-checkbox" type="checkbox" value="">
+                                    <label class="font-grey-16-700 d-flex w-100" for="paypal">
+                                        <div class="custom-checkbox circle">
+                                            <div class="circle"></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between w-100 align-items-center">
+                                            <span>
+                                                PayPal
+                                            </span>
+                                            <div class="icon"><img src="../../assets/payment/paypal.png" alt=""></div>
+                                        </div>
+                                    </label>
+                            </div>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body font-grey-color-400">
+                                <div class="row-item d-flex justify-content-between flex-nowrap">
+                                    <p class="font-dark-opacity-500 d-block">12-month running plan</p>
+                                    <p class="font-grey-16-700 d-block">$ 85.97</p>
+                                </div>
+                                <div class="row-item d-flex justify-content-between flex-nowrap">
+                                    <p class="font-dark-opacity-500 d-block">Discount</p>
+                                    <p class="font-accent-700 d-block">- 15%</p>
+                                </div>
+                                <div class="row-item d-flex justify-content-between flex-nowrap">
+                                    <p class="font-dark-opacity-500 d-block">Total</p>
+                                    <p class="font-grey-16-700 d-block">$ 59.97</p>
+                                </div>
+                                <button class="btn yellow-payment-btn"><img src="../../assets/payment/paypal-btn.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading">
+                            <div class="accordion-button collapsed checkbox-box font-grey-16-700 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                                <input name="other" id="other" class="styled-checkbox" type="checkbox" value="">
+                                <label class="font-grey-16-700 d-flex w-100" for="other">
+                                    <div class="custom-checkbox circle">
+                                        <div class="circle"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between w-100 align-items-center">
+                                            <span>
+                                                Credit Card
+                                            </span>
+                                        <div class="icon d-flex align-items-center">
+                                            <img src="../../assets/payment/visa-xs.png" alt="">
+                                            <img src="../../assets/payment/master-xs.png" alt="">
+                                            <img src="../../assets/payment/green-xs.png" alt="">
+                                            <img src="../../assets/payment/e-xs.png" alt="">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </h2>
+                        <div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionExample">
+                            <div class="accordion-body font-grey-color-400">
+                                <div class="row-item d-flex justify-content-between flex-nowrap">
+                                    <p class="font-dark-opacity-500 d-block">12-month running plan</p>
+                                    <p class="font-grey-16-700 d-block">$ 85.97</p>
+                                </div>
+                                <div class="row-item d-flex justify-content-between flex-nowrap">
+                                    <p class="font-dark-opacity-500 d-block">Discount</p>
+                                    <p class="font-accent-700 d-block">- 15%</p>
+                                </div>
+                                <div class="row-item d-flex justify-content-between flex-nowrap line-after position-relative">
+                                    <p class="font-dark-opacity-500 d-block">Total</p>
+                                    <p class="font-grey-16-700 d-block">$ 59.97</p>
+                                </div>
+                                <div class="form">
+                                    <div class="form-row font-dark-grey-500 w-100">
+                                        <label for="name" class="d-block">Name</label>
+                                        <input id="name" name="name" type="text" placeholder="Name">
+                                    </div>
+                                    <button class="btn green-payment-btn font-white-16-700 text-center">Complete secure payment</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inf-box">
+                <div class="item d-flex align-items-center">
+                    <img src="../../assets/icons/lock.png" alt="">
+                    <p class="font-grey-color-400">Follow the instructions on the screen to complete your purchase securely.</p>
+                </div>
+                <div class="item d-flex align-items-center">
+                    <img src="../../assets/icons/notice.png" alt="">
+                    <p class="font-grey-color-400">The price is valid for the first term of your subscription. Afterwards, your subscription will be automatically renewed for the initially ordered service period and you will be charged at the standard renewal price.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container">
+        <nav class="navbar w-100 p-0 m-0">
+            <div class="d-flex p-0 w-100 justify-content-between navbar-container">
+                <div class="d-flex logo-box">
+                    <div class="logo-container">
+                        <img src="../../assets/logo/logo-white.png" alt="">
+                    </div>
+                    <div class="nav-menu">
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item list-unstyled">
+                                <a class="nav-link font-white-400 p-0" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item list-unstyled">
+                                <a class="nav-link font-white-400 p-0" href="#">How It Works</a>
+                            </li>
+                            <li class="nav-item list-unstyled">
+                                <a class="nav-link font-white-400 p-0" href="#">Personalized Plan</a>
+                            </li>
+                            <li class="nav-item list-unstyled">
+                                <a class="nav-link font-white-400 p-0" href="#">Baby-Led Weaning</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
