@@ -392,6 +392,26 @@
     .section.last-section, .last-section {
         margin-bottom: 60px;
     }
+
+    .payment-section .content-box {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .payment-box {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .payment-section .inf-box {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .payment-section .inf-box .item:first-child {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -558,6 +578,28 @@
     }
 
 
+    footer.fixed {
+        position: static;
+    }
+
+    .point-item-box p.name {
+        left: 0;
+    }
+
+    .font-accent-18-700, .font-white-26-700 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .point-item {
+        width: 35px;
+        height: 35px;
+    }
+
+    .stepper-box .line {
+        height: 2px;
+    }
+
 }
 @media (max-width: 1400px) {
 }
@@ -629,3 +671,4 @@
     }
 
     }
+
