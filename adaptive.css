@@ -105,9 +105,51 @@
     header.summary img.adaptive {
         display: block;
     }
+
+    .font-light-grey-700 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .font-dark-grey-700 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .diagram-box .diagram .inf-box {
+        max-width: 220px;
+        white-space: normal;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .diagram-box .diagram img.adaptive {
+        display: block;
+    }
+
+    .diagram-box .diagram {
+        max-width: 340px;
+    }
+
+    .diagram-box .diagram .days-container {
+        height: 26%;
+    }
+
+    .diagram-box .diagram img {
+        display: none;
+    }
+
+    .diagram-box .diagram .today-box {
+        bottom: 75px;
+    }
 }
 
 @media (max-width: 992px) {
+
+    .diagram-box .diagram .days-box {
+        padding: 20px;
+    }
 
     .active-users .users-block {
         display: none;
@@ -555,6 +597,7 @@
 
     .summary-conclusion.adaptive .diagram {
         width: 100%!important;
+        margin: 0 auto;
     }
 
     .summary-days .days-box-container, .summary-days .benefits-box {
