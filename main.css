@@ -1057,6 +1057,30 @@ section .stepper-box {
     padding: 30px 80px;
 }
 
+section.program {
+    margin: 100px 0;
+}
+
+.program .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.program .content-box {
+    width: 100%;
+    max-width: 470px;
+}
+
+.program .img-box img.adaptive {
+    display: none;
+}
+
+.program .readmore {
+    display: none;
+}
+
+
 
 
 

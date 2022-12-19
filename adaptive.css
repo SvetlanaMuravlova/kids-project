@@ -454,7 +454,16 @@
     .payment-section .inf-box .item:first-child {
         margin-bottom: 20px;
     }
-}
+
+    .program .img-box img.adaptive {
+        display: block;
+    }
+
+    .program .img-box img {
+        display: none;
+    }
+
+    }
 
 @media (max-width: 1200px) {
     section.main-page .container, .get-section .box {
@@ -552,7 +561,33 @@
     }
 
     .plan-selection .content-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .plan-selection .content-wrapper .plan_includes {
+        margin-bottom: 40px;
+    }
+
+    .plan-selection .content-wrapper .readmore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plan-selection .content-wrapper .readmore p {
+        margin-bottom: 0;
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .plan-selection .content-wrapper .readmore img {
+        margin-left: 10px;
+    }
+
+
+    .plan-selection .plans-include-wrapper .checkbox-box.adaptive {
+        display: none;
     }
 
     .plan-selection .content-wrapper .plans {
@@ -641,6 +676,19 @@
 
     .stepper-box .line {
         height: 2px;
+    }
+
+    .program .container {
+        flex-direction: column-reverse;
+    }
+
+    .program .content-box {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
 
 }
