@@ -753,7 +753,7 @@ footer {
 }
 
 .summary-days .benefits-box {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .active-users {
@@ -1079,6 +1079,39 @@ section.program {
 .program .readmore {
     display: none;
 }
+
+.graphic .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphic .container .block {
+    width: 100%;
+    max-width: 560px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+}
+
+.graphic .container img {
+    width: fit-content;
+}
+
+.graphic .container img.remove-paddings {
+    width: fit-content;
+    margin: 0 -30px -30px -30px;
+}
+
+.graphic .container img.adaptive {
+    display: none;
+}
+
 
 
 
